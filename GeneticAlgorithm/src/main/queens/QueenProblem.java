@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class QueenProblem {
 
     public static void main(String [] args) {
-        new QueenProblem(10);
+        new QueenProblem(11);
     }
 
     public QueenProblem(int size) {

@@ -29,8 +29,10 @@ public class GeneticAlgorithm {
 
     public final Individual start() {
         Individual[] individuals = population.getIndividuals();
-
         scoreIndividuals(individuals);
+
+        Individual bestIndividual = population.getBestIndividual();
+        Individual tmpIndividual;
 
         while (!terminator.terminate(population)) {
             individuals = selector.select(population);
@@ -39,8 +41,13 @@ public class GeneticAlgorithm {
             scoreIndividuals(individuals);
             successionIndividuals(individuals);
             population.setIndividuals(individuals);
+
+            tmpIndividual = population.getBestIndividual();
+            if (tmpIndividual.getScore() > bestIndividual.getScore()) {
+                bestIndividual = tmpIndividual;
+            }
         }
-        return population.getBestIndividual();
+        return bestIndividual;
     }
 
     private void scoreIndividuals(Individual[] individuals) {
