@@ -14,8 +14,8 @@ public class ScrambleMutationStrategy implements MutationStrategy {
             return individual;
         }
         Object[] gens = individual.getGens().clone();
-        final int start = randomGenerator.nextInt(gens.length - 2);
-        final int end = start + randomGenerator.nextInt(gens.length - start - 2) + 2;
+        final int start = randomGenerator.nextInt(gens.length - 1);
+        final int end = start + randomGenerator.nextInt(gens.length - start - 1);
 
         ArrayList<Object> newGens = new ArrayList<>(Arrays.asList(gens).subList(start, end));
         for (int i = start; i < end; ++i) {

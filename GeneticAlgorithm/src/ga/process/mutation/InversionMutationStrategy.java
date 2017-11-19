@@ -13,8 +13,8 @@ public class InversionMutationStrategy implements MutationStrategy {
             return individual;
         }
         Object[] gens = individual.getGens().clone();
-        final int start = randomGenerator.nextInt(gens.length - 2);
-        final int end = start + randomGenerator.nextInt(gens.length - start - 2) + 2;
+        final int start = randomGenerator.nextInt(gens.length - 1);
+        final int end = start + randomGenerator.nextInt(gens.length - start - 1);
 
         Object[] newGens = Arrays.copyOfRange(gens, start, end);
         for (int i = 0; i < newGens.length; ++i) {

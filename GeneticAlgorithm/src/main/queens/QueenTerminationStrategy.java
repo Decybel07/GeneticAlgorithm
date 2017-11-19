@@ -11,7 +11,7 @@ public class QueenTerminationStrategy implements TerminationStrategy {
         Individual bestIndividual = population.getBestIndividual();
 
         System.out.println("======= Generation " + generationCount);
-        System.out.println(String.format("Best: Individual { score = %.3f }", bestIndividual.getScore()));
+        System.out.println(String.format("Best: Individual { score = %.1f }", bestIndividual.getScore()));
 
         return generationCount++ >= maxGenerationCount || bestIndividual.getScore() == 0;
     }

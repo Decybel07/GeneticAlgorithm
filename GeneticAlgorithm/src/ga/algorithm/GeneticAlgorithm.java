@@ -13,8 +13,8 @@ import ga.process.termination.TerminationStrategy;
 
 public class GeneticAlgorithm {
 
-    public GeneticAlgorithm(InitializationStrategy initializator, EvaluationStrategy evaluator, SelectionStrategy selector, CrossoverStrategy crossover, MutationStrategy mutator, SuccessionStrategy successor, TerminationStrategy terminator) {
-        this(initializator.createPopulation(), evaluator, selector, crossover, mutator, successor, terminator);
+    public GeneticAlgorithm(InitializationStrategy initializer, EvaluationStrategy evaluator, SelectionStrategy selector, CrossoverStrategy crossover, MutationStrategy mutator, SuccessionStrategy successor, TerminationStrategy terminator) {
+        this(initializer.createPopulation(), evaluator, selector, crossover, mutator, successor, terminator);
     }
 
     public GeneticAlgorithm(Population population, EvaluationStrategy evaluator, SelectionStrategy selector, CrossoverStrategy crossover, MutationStrategy mutator, SuccessionStrategy successor, TerminationStrategy terminator) {
