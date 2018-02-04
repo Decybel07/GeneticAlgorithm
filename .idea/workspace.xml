@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31586dcb-9c24-4a06-98e6-41292ad8606a" name="Default" comment="Knapsack problem - solved">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/main/knapsack/Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/main/knapsack/KnapsackEvaluationStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/main/knapsack/KnapsackTerminationStrategy.java" />
+    <list default="true" id="31586dcb-9c24-4a06-98e6-41292ad8606a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneticAlgorithm/src/ga/algorithm/GeneticAlgorithm.java" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/ga/algorithm/GeneticAlgorithm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneticAlgorithm/src/ga/process/mutation/InversionMutationStrategy.java" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/ga/process/mutation/InversionMutationStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneticAlgorithm/src/ga/process/mutation/ScrambleMutationStrategy.java" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/ga/process/mutation/ScrambleMutationStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneticAlgorithm/src/main/knapsack/KnapsackProblem.java" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/main/knapsack/KnapsackProblem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneticAlgorithm/src/main/queens/QueenEvaluationStrategy.java" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/main/queens/QueenEvaluationStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneticAlgorithm/src/main/queens/QueenProblem.java" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/main/queens/QueenProblem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneticAlgorithm/src/main/queens/QueenTerminationStrategy.java" afterPath="$PROJECT_DIR$/GeneticAlgorithm/src/main/queens/QueenTerminationStrategy.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -471,6 +461,14 @@
       <option name="presentableId" value="Default" />
       <updated>1509180084250</updated>
     </task>
+    <task id="LOCAL-00001" summary="Knapsack problem - solved">
+      <created>1511118756883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511118756883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -484,7 +482,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
